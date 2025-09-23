@@ -4,6 +4,25 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Sandbox World!");
+        // loops
+
+
+        //for
+
+
+        //foreach
+            
+            List<string> fruits = new List<string>{"Apple", "Bannana", "Cherry"};
+
+        //while
+        Console.WriteLine("Make a choice (y or n): ");
+        string value = Console.ReadLine()
+
+
+
+
+
+
+
     }
 }
