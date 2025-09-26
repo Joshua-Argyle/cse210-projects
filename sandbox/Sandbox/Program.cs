@@ -1,28 +1,23 @@
 using System;
+using System.Net.Sockets;
+using System.Runtime.CompilerServices;
+using System.Security.Cryptography.X509Certificates;
 
 class Program
 {
+
     static void Main(string[] args)
     {
-        // loops
+        int x = 2;
+        int y = 3;
 
+        int sum = Adder(x, y);
+        Console.WriteLine(sum);
 
-        //for
-
-
-        //foreach
-            
-            List<string> fruits = new List<string>{"Apple", "Bannana", "Cherry"};
-
-        //while
-        Console.WriteLine("Make a choice (y or n): ");
-        string value = Console.ReadLine()
-
-
-
-
-
-
-
+        static int Adder(int a, int b)
+        {
+            return a + b;
+        }
+    
     }
 }
