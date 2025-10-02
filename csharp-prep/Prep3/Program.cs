@@ -5,10 +5,11 @@ class Program
     static void Main(string[] args)
     {
         string playAgain = "y";
+        const int rangeMax = 101;
         while (playAgain.ToLower() == "y")
         {
             Random numberGenerator = new Random();
-            int magicNumber = numberGenerator.Next(1, 101);
+            int magicNumber = numberGenerator.Next(1, rangeMax);
             int guess;
             int count = 0;
             do

@@ -8,16 +8,13 @@ class Program
 
     static void Main(string[] args)
     {
-        int x = 2;
-        int y = 3;
+        Student s1 = new Student();
+        s1_firstName = "Bob";
+        s1_lastName = "Jones";
+        s1_id = "12345345";
 
-        int sum = Adder(x, y);
-        Console.WriteLine(sum);
-
-        static int Adder(int a, int b)
-        {
-            return a + b;
-        }
-    
+        s1.DisplayName(); d
+        
     }
+
 }
