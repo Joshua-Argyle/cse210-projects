@@ -17,7 +17,11 @@ class Fraction
     public Fraction(int numerator, int denominator)
     {
         _top = numerator;
-        _bottom = denominator;
+        if (denominator != 0)
+        {
+            SetBottom(denominator);
+        }
+        else _bottom = 1;
     }
     public int GetTop()
     {
