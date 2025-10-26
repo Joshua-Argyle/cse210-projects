@@ -20,6 +20,6 @@ class Program
         Console.WriteLine(test2.GetDecimalValue());
         Console.WriteLine(test3.GetFractionString());
         Console.WriteLine(test3.GetDecimalValue());
-
+        
     }
 }
