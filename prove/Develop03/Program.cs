@@ -1,5 +1,6 @@
 using System;
-
+/* I made it so that each word that is hidden stays hidden. The list constently keeps updating to the hidden scripture, which is
+Meerly the scripture that keeps getting more and more hidden. The whole thing recents and can be done again once user is out of program. */
 class Program
 {
     static void Main(string[] args)
