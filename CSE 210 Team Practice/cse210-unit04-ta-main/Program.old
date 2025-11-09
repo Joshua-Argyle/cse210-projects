@@ -1,0 +1,33 @@
+﻿namespace Week08Demo_Products;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Book book = new Book(
+            1,
+            "The Pragmatic Programmer",
+            39.99m,
+            12,
+            "A classic guide to software craftsmanship.",
+            "Andrew Hunt & David Thomas",
+            "Addison-Wesley",
+            "1999-10-30",
+            352
+        );
+
+        Electronics laptop = new Electronics(
+            2,
+            "Laptop",
+            899.99m,
+            5,
+            "Lightweight laptop with 16GB RAM and 512GB SSD.",
+            "Dell",
+            "XPS 13",
+            "24 months"
+        );
+
+        Console.WriteLine(book.GetInfo());
+        Console.WriteLine(laptop.GetInfo());
+    }
+}
