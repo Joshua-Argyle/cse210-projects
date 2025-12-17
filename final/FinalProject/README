@@ -1,0 +1,5 @@
+Welcome to the piano accompaniment generator program!
+This program takes in a piece of piano music and generates accompaniments according to different music styles such as
+Bossa Nova, Jazz Ballad, Ragtime, and so forth. 
+NOTE: The option to choose any file is not functional yet, so for the time being it is only fully functional with the jingle bells piece included.
+Also to see the sheet music you need a music notation software downloaded to your computer such as musescore, Dorico, or Finale.
